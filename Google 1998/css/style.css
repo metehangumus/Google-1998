@@ -1,0 +1,45 @@
+.header {
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+#box {
+  width: 300px;
+}
+.main2 {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+}
+.content {
+  display: flex;
+  width: 100%;
+  column-gap: 5px;
+  height: 100%;
+}
+.content1 {
+  background-color: rgb(126, 229, 218);
+  display: flex;
+  flex-grow: 37;
+  align-items: center;
+  justify-content: center;
+}
+.content2 {
+  background-color: rgb(112, 204, 194);
+  flex-grow: 1;
+  padding: 10px 50px;
+}
+.content3 {
+  background-color: rgb(98, 179, 170);
+  flex-grow: 42;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+}
